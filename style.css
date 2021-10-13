@@ -116,3 +116,19 @@ nav{
     flex-direction: column;
     justify-content: center;
 }
+.ms-img-custom{
+    max-width: 80%;
+    height: auto;
+}
+.trademark-logo{
+    position: relative;
+    bottom: 5px;
+    font-size: 10px;
+   
+}
+.ms-active-bototm-border{
+    border-bottom: 3px solid #0072ce;
+}
+.ms-filter-img{
+    filter: opacity(50%);
+}
