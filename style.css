@@ -1,0 +1,27 @@
+/* SONY HEADER */
+.ms-contaneiner{
+    width:100% ;
+}
+#sony-box{
+    max-width: 100%;
+    background-color: black;
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+#sony-box img{
+    width: 90px;
+    margin: 15px 10px;
+}
+/* NAV */
+.ms-navbar-side{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.ms-lens{
+    margin: 0 10px;
+}
+.ms-btn{
+    border-radius: 30px;
+}
