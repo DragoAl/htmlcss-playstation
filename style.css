@@ -83,3 +83,36 @@ nav{
     border-color: #cd3d0f;
     box-shadow: 0 0 0 .25rem rgba(225,83,97,.5);
 }
+.game-listing{
+    max-width: 100%;
+    margin: 1rem;
+    
+}
+.ms-game-img{
+    border-radius: 20px;
+}
+.ms-active-border{
+    border: 3px solid #0072ce;
+    padding: 3px;
+}
+/* playstation5 */
+.ms-ps5-listing{
+    margin-top: 5rem ;
+}
+.ms-ps5-discover{
+    margin:0 1rem 2.5rem;
+
+}
+#nolimits{
+    color: #0072ce;
+}
+.ms-p-subtitle{
+    color: #727272;
+    font-size: 1.3rem;
+    margin: 1.5rem 0;
+}
+.ms-flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
