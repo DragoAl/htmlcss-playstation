@@ -168,6 +168,12 @@ nav{
 #psplus{
     background-color: #bebcbb;
     width: 100%;
+    min-height: 240px;
+}
+#psnow{
+    background-color: #161c3b;
+    width: 100%;
+    min-height: 240px;
 }
 .ms-ps-service-background{
     
@@ -181,9 +187,88 @@ nav{
 .ms-banner-img{
     max-width: 100%;
 }
-.ms-ps-service-settings{
+.ms-ps-service-settings, .ms-social-space{
+    margin-bottom: .8rem;
     
 }
 .ms-ps-service-logo{
     max-width: 60%;
+}
+.btn-light-grey{
+    color: #2e65e6;
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+}
+.btn-light-grey:hover {
+    color: #2e65e6;
+    background-color: #f9fafb;
+    border-color: #f9fafb;
+}
+.btn-light-grey:active{
+    color: #2e65e6;
+    background-color: #f9fafb;
+    border-color: #f9fafb;
+
+}
+.btn-light-grey:focus{
+    color: #2e65e6;
+    background-color: #f9fafb;
+    border-color: #f9fafb;
+
+}
+/* DISCOUNT */
+.ms-row-margin{
+    margin: 2rem 0;
+}
+/* SOCIAL MEDIA */
+.ms-social-container{
+    max-width: 700px;
+}
+.ms-h2-weight{
+    font-weight: 300;
+}
+.social-listing{
+    margin: 1rem 0;
+}
+#ms-bg-footer{
+    width: 100%;
+    background-color:#00439c ;
+}
+#ms-ps-footerlogo{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(165deg) brightness(200%) contrast(102%);
+    width:100px;
+    margin: 2rem 0;
+}
+.ms-language-logo{
+    max-width: 20px;
+    margin-right: 10px;
+}
+
+.ms-footer-list{
+    margin-top: 2rem;
+}
+.ms-footer-list ul li{
+    list-style: none;
+    color: white;
+}
+.ms-position{
+    position: relative;
+    width: 250px ;
+}
+.ms-span-position{
+    display: inline-block;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
+.ms-sie-logo{
+    width: 150px;
+    margin: 4rem 0 1rem;
+}
+footer p a{
+    
+    color: white;
+}
+footer p a:hover{
+    color: white;
 }
