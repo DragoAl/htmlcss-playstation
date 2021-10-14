@@ -1,0 +1,12 @@
+@media all and (max-width:576px){
+    .ms-hide-text{
+        display: none;
+    }
+    
+}
+@media all and (max-width:767px){
+    .banner-listing{
+        display: none;
+    }
+    
+}

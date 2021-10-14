@@ -38,16 +38,19 @@ nav{
     --bs-bg-opacity: 0;
     
 }
-/* JUMBOTRON */
-.ms-jumbo-bg{
+/* JUMBOTRON RETURNAL */
+.ms-game-background{
     width: 100%;
-    height: 650px;
-    background-image: url(img/jumbo-bg.png);
     background-position:center;
     background-repeat: no-repeat;
     margin: 0;
     align-content: flex-end;
 
+
+}
+#jumbotron{
+    background-image: url(img/jumbo-bg.png);
+    min-height: 650px;
 }
 #returnal-logo{
    max-width: 50%;
@@ -58,7 +61,7 @@ nav{
 .ms-h2-setting{
     font-size: calc(2.125rem + .9vw);
 }
-.ms-h2-white, .ms-p-white{
+.ms-h2-white, .ms-p-white, .ms-span-white{
     color: white;
 }
 .ms-gameinfo{
@@ -95,7 +98,7 @@ nav{
     border: 3px solid #0072ce;
     padding: 3px;
 }
-/* playstation5 */
+/* PS5 EXPLORE */
 .ms-ps5-listing{
     margin-top: 5rem ;
 }
@@ -117,13 +120,14 @@ nav{
     justify-content: center;
 }
 .ms-img-custom{
+    min-width: 100px;
     max-width: 80%;
     height: auto;
 }
 .trademark-logo{
     position: relative;
     bottom: 5px;
-    font-size: 10px;
+    font-size: .6rem;
    
 }
 .ms-active-bototm-border{
@@ -131,4 +135,55 @@ nav{
 }
 .ms-filter-img{
     filter: opacity(50%);
+}
+/* ITTAKESTWO SECTION */
+#ittakestwo{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    min-height: 700px;
+}
+#ittakestwo-logo{
+    max-width: 60%;
+    
+ }
+/* NEW RELEASE SECTION*/
+.ms-new-background{
+    width: 100%;
+    background-color: #1f1f1f;
+}
+
+#newexit  p{
+    font-size: 1.3rem;
+    margin: 1.5rem 0;
+}
+#newexit {
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+}
+/* PS4 EXPLORE */
+.ms-ps4-margin{
+    margin-bottom: 2rem;
+
+}
+/* PS PLUS/NOW SECTION */ 
+#psplus{
+    background-color: #bebcbb;
+    width: 100%;
+}
+.ms-ps-service-background{
+    
+    
+    
+
+}
+.banner-listing{
+    max-width: 100%;
+}
+.ms-banner-img{
+    max-width: 100%;
+}
+.ms-ps-service-settings{
+    
+}
+.ms-ps-service-logo{
+    max-width: 60%;
 }
