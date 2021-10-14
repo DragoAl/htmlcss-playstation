@@ -1,4 +1,9 @@
 /* SONY HEADER */
+header{
+
+    z-index: 100;
+    background-color: white;
+}
 .ms-container{
     width:100% ;
 }
@@ -51,6 +56,7 @@ nav{
 #jumbotron{
     background-image: url(img/jumbo-bg.png);
     min-height: 650px;
+    margin-top: 150px;
 }
 #returnal-logo{
    max-width: 50%;
