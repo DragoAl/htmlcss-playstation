@@ -33,12 +33,29 @@ nav{
 .navbar-light .navbar-nav .nav-link{
     color: black;
 }
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0070d1;
+}
 .ms-lens{
     margin: 0 10px;
 }
 .ms-btn{
     border-radius: 30px;
+    border: 2px solid ;
+    outline: 2px solid ;
 }
+.ms-btn-dark{
+    border-color:#212529 ;
+    outline-color: #212529;
+}
+
+.btn-dark:hover{
+    opacity: .7;
+    border: 2px solid  white ;
+    outline: 2px solid #212529;
+}
+
+
 .bg-light{
     --bs-bg-opacity: 0;
     
@@ -54,17 +71,45 @@ nav{
     border-left: .3em solid transparent;
     vertical-align: .255em; */
 }
-.ms-dropdown-toggle:hover:after{
+
+.ms-dropdown-toggle.show::after{
     display: inline-block;
     margin-left: .255em;
     width: 10px;
     content: url(img/chevron-down-solid-hover.svg);
-    /* border-top: .3em solid;
-    border-right: .3em solid transparent;
-    border-bottom: 0;
-    border-left: .3em solid transparent;
-    vertical-align: .255em; */
+    rotate: 180deg;
+
 }
+#search-field-menu{
+    position: relative;
+}
+#search-field-menu:before{
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 18px;
+  bottom: 0;
+  width: 100px;
+  background:url(img/lens.svg);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  
+}
+#search-field-menu input{
+    padding: 10px 50px;
+    margin: 10px 0;
+    width: 600px;
+}
+/* .navbar-expand-lg .navbar-nav .ms-drop-menu{
+    position: fixed ;
+    top: 131px;
+    left: 0 ;
+    width: 100vw;
+    border: none;
+    text-align: center;
+} */
+
+
 /* JUMBOTRON RETURNAL */
 .ms-game-background{
     width: 100%;

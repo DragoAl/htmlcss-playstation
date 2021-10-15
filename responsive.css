@@ -10,3 +10,15 @@
     }
     
 }
+@media all and (min-width: 992px ){
+    .navbar-text ul li label{
+        display: none;
+
+    }
+}
+@media all and (max-width: 992px ){
+    .ms-lens{
+        display: none;
+
+    }
+}
