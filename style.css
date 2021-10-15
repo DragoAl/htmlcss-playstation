@@ -43,6 +43,28 @@ nav{
     --bs-bg-opacity: 0;
     
 }
+.ms-dropdown-toggle::after{
+    display: inline-block;
+    margin-left: .255em;
+    width: 10px;
+    content: url(img/chevron-down-solid.svg);
+    /* border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    vertical-align: .255em; */
+}
+.ms-dropdown-toggle:hover:after{
+    display: inline-block;
+    margin-left: .255em;
+    width: 10px;
+    content: url(img/chevron-down-solid-hover.svg);
+    /* border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    vertical-align: .255em; */
+}
 /* JUMBOTRON RETURNAL */
 .ms-game-background{
     width: 100%;
