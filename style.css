@@ -1,66 +1,65 @@
 /* SONY HEADER */
-header{
+header {
 
     z-index: 100;
     background-color: white;
 }
-.ms-container{
+.ms-container {
     width:100% ;
 }
-#sony-box{
+#sony-box {
     max-width: 100%;
     background-color: black;
     min-height: 50px;
     display: flex;
     justify-content: flex-end;
 }
-#sony-box img{
+#sony-box img {
     width: 90px;
     margin: 15px 10px;
 }
 /* NAV */
-nav{
+nav {
     font-family: Arial, Helvetica, sans-serif;
     
     
 }
-.ms-navbar-side{
+.ms-navbar-side {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
   
 }
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
     color: black;
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: #0070d1;
 }
-.ms-lens{
+.ms-lens {
     margin: 0 10px;
 }
-.ms-btn{
+.ms-btn {
     border-radius: 30px;
     border: 2px solid ;
     outline: 2px solid ;
 }
-.ms-btn-dark{
+.ms-btn-dark {
     border-color:#212529 ;
     outline-color: #212529;
 }
 
-.btn-dark:hover{
+.btn-dark:hover {
     opacity: .7;
     border: 2px solid  white ;
     outline: 2px solid #212529;
 }
 
-
 .bg-light{
     --bs-bg-opacity: 0;
-    
 }
-.ms-dropdown-toggle::after{
+
+.ms-dropdown-toggle::after {
     display: inline-block;
     margin-left: .255em;
     width: 10px;
@@ -72,18 +71,19 @@ nav{
     vertical-align: .255em; */
 }
 
-.ms-dropdown-toggle.show::after{
+.ms-dropdown-toggle.show::after {
     display: inline-block;
     margin-left: .255em;
     width: 10px;
     content: url(img/chevron-down-solid-hover.svg);
     rotate: 180deg;
-
 }
-#search-field-menu{
+
+#search-field-menu {
     position: relative;
 }
-#search-field-menu:before{
+
+#search-field-menu:before {
   content: "";
   position: absolute;
   left: 10px;
@@ -93,131 +93,190 @@ nav{
   background:url(img/lens.svg);
   background-size: 30%;
   background-repeat: no-repeat;
-  
 }
-#search-field-menu input{
+
+#search-field-menu input {
     padding: 10px 50px;
     margin: 10px 0;
     width: 600px;
 }
-/* .navbar-expand-lg .navbar-nav .ms-drop-menu{
-    position: fixed ;
+.navbar-expand-lg .navbar-nav .ms-drop-menu.show {
+    position: fixed;
     top: 131px;
     left: 0 ;
     width: 100vw;
     border: none;
     text-align: center;
-} */
+    
+}
+
+.play-menu-icon {
+    width: 70px;
+}
+
+.ms-drop-menu li {
+    display: inline-block;
+}
+
+.sub-menu{
+    border-top: 2px solid #f2f2f4;
+}
+
+.sub-menu li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.sub-menu li {
+    margin: .5em 0;
+
+
+}
+
+.sub-menu li ::before {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: .255em;
+    content: "";
+    border-top: .2em solid gray;
+    border-right: .2em solid gray;
+    border-bottom: .2em solid gray;
+    border-left: .2em solid gray;
+    border-radius: 50%;
+    
+    
+}
 
 
 /* JUMBOTRON RETURNAL */
-.ms-game-background{
+.ms-game-background {
     width: 100%;
     background-position:center;
     background-repeat: no-repeat;
     margin: 0;
     align-content: flex-end;
-
-
 }
-#jumbotron{
+
+#jumbotron {
     background-image: url(img/jumbo-bg.png);
     min-height: 650px;
     margin-top: 150px;
 }
-#returnal-logo{
+
+#returnal-logo {
    max-width: 50%;
 }
-.ms-img-size{
+
+.ms-img-size {
     min-width: 300px;
 }
-.ms-h2-setting{
+
+.ms-h2-setting {
     font-size: calc(2.125rem + .9vw);
 }
-.ms-h2-white, .ms-p-white, .ms-span-white{
+
+.ms-h2-white, .ms-p-white, .ms-span-white {
     color: white;
 }
-.ms-gameinfo{
+
+.ms-gameinfo {
     margin-bottom:30px;
 }
-.ms-col-settings{
+
+.ms-col-settings {
     margin: 0 0 20px 10px;
 }
-.btn-danger{
+
+.btn-danger {
     color: #fff;
     background-color: #cd3d0f;
     border-color: #cd3d0f;
 }
-.btn-danger:hover{
+
+.btn-danger:hover {
     color: #fff;
     background-color: #cd3d0f;
     border-color: #cd3d0f;
-}
+} 
+
 .btn-danger:focus {
     color: #fff;
     background-color: #cd3d0f;
     border-color: #cd3d0f;
     box-shadow: 0 0 0 .25rem rgba(225,83,97,.5);
 }
-.game-listing{
+
+.game-listing {
     max-width: 100%;
     margin: 1rem;
-    
 }
-.ms-game-img{
+
+.ms-game-img {
     border-radius: 20px;
 }
-.ms-active-border{
+
+.ms-active-border {
     border: 3px solid #0072ce;
     padding: 3px;
 }
+
 /* PS5 EXPLORE */
-.ms-ps5-listing{
+.ms-ps5-listing {
     margin-top: 5rem ;
 }
-.ms-ps5-discover{
-    margin:0 1rem 2.5rem;
 
+.ms-ps5-discover {
+    margin:0 1rem 2.5rem;
 }
-#nolimits{
+
+#nolimits {
     color: #0072ce;
 }
-.ms-p-subtitle{
+
+.ms-p-subtitle {
     color: #727272;
     font-size: 1.3rem;
     margin: 1.5rem 0;
 }
-.ms-flex-column{
+
+.ms-flex-column {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.ms-img-custom{
+
+.ms-img-custom {
     min-width: 100px;
     max-width: 80%;
     height: auto;
 }
-.trademark-logo{
+
+.trademark-logo {
     position: relative;
     bottom: 5px;
     font-size: .6rem;
    
 }
-.ms-active-bototm-border{
+
+.ms-active-bototm-border {
     border-bottom: 3px solid #0072ce;
 }
-.ms-filter-img{
+
+.ms-filter-img {
     filter: opacity(50%);
 }
+
 /* ITTAKESTWO SECTION */
-#ittakestwo{
+#ittakestwo {
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
     min-height: 700px;
 }
-#ittakestwo-logo{
+
+#ittakestwo-logo {
     max-width: 60%;
-    
- }
+}
+
 /* NEW RELEASE SECTION*/
 .ms-new-background{
     width: 100%;
@@ -228,120 +287,145 @@ nav{
     font-size: 1.3rem;
     margin: 1.5rem 0;
 }
+
 #newexit {
    padding-top: 2rem;
    padding-bottom: 2rem;
 }
+
 /* PS4 EXPLORE */
 .ms-ps4-margin{
     margin-bottom: 2rem;
-
 }
+
 /* PS PLUS/NOW SECTION */ 
-#psplus{
+#psplus {
     background-color: #bebcbb;
     width: 100%;
     min-height: 240px;
 }
-#psnow{
+
+#psnow {
     background-color: #161c3b;
     width: 100%;
     min-height: 240px;
 }
+
 .ms-ps-service-background{
     
     
     
 
 }
-.banner-listing{
+
+.banner-listing {
     max-width: 100%;
 }
-.ms-banner-img{
+
+.ms-banner-img {
     max-width: 100%;
 }
-.ms-ps-service-settings, .ms-social-space{
+
+.ms-ps-service-settings, .ms-social-space {
     margin-bottom: .8rem;
     
 }
-.ms-ps-service-logo{
+
+.ms-ps-service-logo {
     max-width: 60%;
 }
-.btn-light-grey{
+
+.btn-light-grey {
     color: #2e65e6;
     background-color: #d9dadc;
     border-color: #d9dadc;
 }
+
 .btn-light-grey:hover {
     color: #2e65e6;
     background-color: #f9fafb;
     border-color: #f9fafb;
 }
-.btn-light-grey:active{
+
+.btn-light-grey:active {
     color: #2e65e6;
     background-color: #f9fafb;
     border-color: #f9fafb;
 
 }
-.btn-light-grey:focus{
+
+.btn-light-grey:focus {
     color: #2e65e6;
     background-color: #f9fafb;
     border-color: #f9fafb;
 
 }
+
 /* DISCOUNT */
-.ms-row-margin{
+.ms-row-margin {
     margin: 2rem 0;
-}
+} 
+
 /* SOCIAL MEDIA */
-.ms-social-container{
+.ms-social-container {
     max-width: 700px;
 }
-.ms-h2-weight{
+
+.ms-h2-weight {
     font-weight: 300;
 }
-.social-listing{
+
+.social-listing {
     margin: 1rem 0;
 }
-#ms-bg-footer{
+
+#ms-bg-footer {
     width: 100%;
     background-color:#00439c ;
 }
-#ms-ps-footerlogo{
+
+#ms-ps-footerlogo {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(165deg) brightness(200%) contrast(102%);
     width:100px;
     margin: 2rem 0;
 }
-.ms-language-logo{
+
+.ms-language-logo {
     max-width: 20px;
     margin-right: 10px;
 }
 
-.ms-footer-list{
+.ms-footer-list { 
     margin-top: 2rem;
 }
-.ms-footer-list ul li{
+
+.ms-footer-list ul li {
     list-style: none;
     color: white;
 }
-.ms-position{
+
+.ms-position {
     position: relative;
     width: 250px ;
 }
-.ms-span-position{
+
+.ms-span-position {
     display: inline-block;
     position: absolute;
     top: 55%;
     left: 30%;
 }
-.ms-sie-logo{
+
+.ms-sie-logo {
     width: 150px;
     margin: 4rem 0 1rem;
 }
-footer p a{
+
+footer p a {
     
     color: white;
 }
-footer p a:hover{
+
+footer p a:hover { 
     color: white;
 }

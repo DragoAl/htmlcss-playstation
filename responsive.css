@@ -22,3 +22,8 @@
 
     }
 }
+@media all and (max-width: 992px ){
+    .navbar-expand-lg .navbar-nav .ms-drop-menu.show{
+        position: static;
+    }
+}
