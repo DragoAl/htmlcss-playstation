@@ -21,29 +21,32 @@ header {
 /* NAV */
 nav {
     font-family: Arial, Helvetica, sans-serif;
-    
-    
 }
+
 .ms-navbar-side {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-  
 }
+
 .navbar-light .navbar-nav .nav-link {
     color: black;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
     color: #0070d1;
 }
+
 .ms-lens {
     margin: 0 10px;
 }
+
 .ms-btn {
     border-radius: 30px;
     border: 2px solid ;
     outline: 2px solid ;
 }
+
 .ms-btn-dark {
     border-color:#212529 ;
     outline-color: #212529;
@@ -107,7 +110,6 @@ nav {
     width: 100vw;
     border: none;
     text-align: center;
-    
 }
 
 .play-menu-icon {
@@ -130,8 +132,6 @@ nav {
 
 .sub-menu li {
     margin: .5em 0;
-
-
 }
 
 .sub-menu li ::before {
@@ -144,8 +144,6 @@ nav {
     border-bottom: .2em solid gray;
     border-left: .2em solid gray;
     border-radius: 50%;
-    
-    
 }
 
 
@@ -206,10 +204,18 @@ nav {
     border-color: #cd3d0f;
     box-shadow: 0 0 0 .25rem rgba(225,83,97,.5);
 }
-
 .game-listing {
     max-width: 100%;
     margin: 1rem;
+}
+
+.game-listing-jumbo {
+    max-width: 100%;
+    margin: 1rem;
+    transition: margin-top .3s ease-in-out;
+}
+.game-listing-jumbo:hover {
+    margin-top: .1rem;
 }
 
 .ms-game-img {
@@ -264,8 +270,12 @@ nav {
 }
 
 .ms-filter-img {
-    filter: opacity(50%);
+    opacity: 50%;
 }
+.ms-filter-img:hover {
+    opacity: 100%;
+}
+
 
 /* ITTAKESTWO SECTION */
 #ittakestwo {
