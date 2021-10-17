@@ -1,3 +1,6 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* SONY HEADER */
 header {
 
@@ -20,7 +23,7 @@ header {
 }
 /* NAV */
 nav {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 .ms-navbar-side {
@@ -67,11 +70,6 @@ nav {
     margin-left: .255em;
     width: 10px;
     content: url(img/chevron-down-solid.svg);
-    /* border-top: .3em solid;
-    border-right: .3em solid transparent;
-    border-bottom: 0;
-    border-left: .3em solid transparent;
-    vertical-align: .255em; */
 }
 
 .ms-dropdown-toggle.show::after {
@@ -152,8 +150,6 @@ nav {
     width: 100%;
     background-position:center;
     background-repeat: no-repeat;
-    margin: 0;
-    align-content: flex-end;
 }
 
 #jumbotron {
@@ -182,8 +178,9 @@ nav {
     margin-bottom:30px;
 }
 
-.ms-col-settings {
-    margin: 0 0 20px 10px;
+.ms-jumbo-row-height {
+    align-content: flex-end;
+    min-height: 650px;
 }
 
 .ms-btn-danger {
@@ -278,11 +275,15 @@ nav {
     opacity: 100%;
 }
 
-
 /* ITTAKESTWO SECTION */
 #ittakestwo {
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
     min-height: 700px;
+}
+
+.ms-takes-row-height {
+    min-height: 700px;
+    align-items: flex-end;
 }
 
 #ittakestwo-logo {
@@ -290,7 +291,7 @@ nav {
 }
 
 /* NEW RELEASE SECTION*/
-.ms-new-background{
+#newexit{
     width: 100%;
     background-color: #1f1f1f;
 }
@@ -300,15 +301,7 @@ nav {
     margin: 1.5rem 0;
 }
 
-#newexit {
-   padding-top: 2rem;
-   padding-bottom: 2rem;
-}
-
 /* PS4 EXPLORE */
-.ms-ps4-margin{
-    margin-bottom: 2rem;
-}
 .ms-btn-primary {
     background: #0d6efd;
     color: #fff;
@@ -333,13 +326,6 @@ nav {
     min-height: 240px;
 }
 
-.ms-ps-service-background{
-    
-    
-    
-
-}
-
 .banner-listing {
     max-width: 100%;
 }
@@ -348,7 +334,7 @@ nav {
     max-width: 100%;
 }
 
-.ms-ps-service-settings, .ms-social-space {
+.ms-ps-service-settings {
     margin-bottom: .8rem;
     
 }
@@ -393,12 +379,6 @@ nav {
     box-shadow:inset 0 0 0 .25rem #161c3b;
 }
 
-
-/* DISCOUNT */
-.ms-row-margin {
-    margin: 2rem 0;
-} 
-
 /* SOCIAL MEDIA */
 .ms-social-container {
     max-width: 700px;
@@ -407,11 +387,7 @@ nav {
 .ms-h2-weight {
     font-weight: 300;
 }
-
-.social-listing {
-    margin: 1rem 0;
-}
-
+/* FOOTER */
 #ms-bg-footer {
     width: 100%;
     background-color:#00439c ;
@@ -428,13 +404,13 @@ nav {
     margin-right: 10px;
 }
 
-.ms-footer-list { 
-    margin-top: 2rem;
+.ms-footer-list li {
+    list-style: none;
 }
 
-.ms-footer-list ul li {
-    list-style: none;
+.ms-footer-list li a{
     color: white;
+    text-decoration: none;
 }
 
 .ms-position {
@@ -455,7 +431,6 @@ nav {
 }
 
 footer p a {
-    
     color: white;
 }
 
