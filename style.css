@@ -7,9 +7,7 @@ header {
     z-index: 100;
     background-color: white;
 }
-.ms-container {
-    width:100% ;
-}
+
 #sony-box {
     max-width: 100%;
     background-color: black;
@@ -209,7 +207,7 @@ nav {
 
 .game-listing-jumbo {
     max-width: 100%;
-    margin: 1rem;
+    margin-top: 1rem;
     transition: margin-top .3s ease-in-out;
 }
 .game-listing-jumbo:hover {
